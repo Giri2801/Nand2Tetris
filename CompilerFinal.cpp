@@ -20,7 +20,7 @@ public:
 	vector<Entry*> a;
 	string names;
 	void init(string x){
-		//f<<"Initialising da funny boi\n";
+		//f<<"Initialising\n";
 		kind1_count=0;
 		kind2_count=0;
 		total_count=0;
@@ -962,6 +962,5 @@ int main(int argc,char* argv[]) {
 	fin.close();
 	fin.clear();
 	}
-	//g<<"euhoihoifhh\n";
 	return 0;
 }
